@@ -1,2 +1,2 @@
 # sample-average
-Takes samples and creates a graphic based on these samples
+Takes samples and creates a graphs based on these samples
