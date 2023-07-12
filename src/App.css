@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(197, 203, 209);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+input {
+  margin: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px gray;
+}
+
+.inputs {
+  padding: 1% 4% 1% 4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sample {
+  display: flex;
+  flex-direction: column;
+  width: 4vw;
+
+}
+
+.sample>input {
+  margin: 5%;
+  border-radius: 5px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  margin-top: 10%;
+}
